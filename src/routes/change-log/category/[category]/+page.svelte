@@ -8,7 +8,6 @@
 	Filtering by:
 	<a
 		href="/change-log"
-		alt="Change log Index"
 		class="
     px-2
     py-1
