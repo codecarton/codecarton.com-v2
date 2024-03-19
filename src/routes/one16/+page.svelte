@@ -34,7 +34,7 @@
 
 <FeatureCallout
 	imageSrc="/one16/screenshots/widgets.svg"
-	title="Widget-it."
+	title="Answers at a glance."
 	description="The next time saver are widgets. Designed with glanceability at their core. They give you quick
     references to your critical measurements without unlocking your phone or opening the app."
 	imageAlt="Widgets"
