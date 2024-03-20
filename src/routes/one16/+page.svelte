@@ -4,6 +4,10 @@
 	import AppStoreBadge from '$lib/components/AppStoreBadge.svelte';
 </script>
 
+<svelte:head>
+	<title>One16 - Woodworking Calculator</title>
+</svelte:head>
+
 <img
 	src="/one16/iPhone-Hero.svg"
 	alt="One16 - Fraction Calculator now on the app store"
