@@ -12,7 +12,7 @@
 	<title>Code Carton - Change Log</title>
 </svelte:head>
 
-<div class="m-7 hidden md:block">
+<div class="hidden md:block md:max-w-4xl lg:max-w-6xl mx-auto px-10">
 	{#each featuredPosts as post}
 		<HorizontalBlogCard {post} />
 	{/each}

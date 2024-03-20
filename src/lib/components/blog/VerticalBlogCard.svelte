@@ -6,7 +6,7 @@
 <div class="md:w-80 mb-14">
 	<a href={post.postPath}>
 		<img
-			src="/images/blog/{post.meta.coverImage}"
+			src="change-log/{post.meta.coverImage}"
 			alt="{post.meta.title} Cover"
 			width="100%"
 			style="aspect-ratio: {post.meta.coverWidth} / {post.meta.coverHeight};transition: .2s;"

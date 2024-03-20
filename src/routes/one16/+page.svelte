@@ -7,7 +7,7 @@
 <img
 	src="/one16/iPhone-Hero.svg"
 	alt="One16 - Fraction Calculator now on the app store"
-	class="mx-auto -mt-32"
+	class="mx-auto"
 />
 
 <div class="md:px-20 mx-auto max-w-7xl">

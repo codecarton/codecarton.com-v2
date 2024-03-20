@@ -16,7 +16,7 @@
 			href: '/change-log'
 		},
 		{
-			name: 'Blog',
+			name: 'Mortise & Code',
 			href: 'https://mortiseandcode.com'
 		}
 	];
@@ -47,9 +47,9 @@
                       items-center
                       justify-end
                       rounded-sm
-                      bg-slate-600
+                      bg-slate-100
                       p-2
-                      text-white
+                      text-slate-600
                       hover:bg-slate-700
                       hover:text-slate-200
                       focus:outline-none

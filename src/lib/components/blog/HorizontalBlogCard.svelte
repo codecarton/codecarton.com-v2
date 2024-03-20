@@ -9,7 +9,7 @@
 	<div class="self-center">
 		<a href={post.postPath}>
 			<img
-				src="images/blog/{post.meta.coverImage}"
+				src="change-log/{post.meta.coverImage}"
 				alt="{post.meta.title} Cover"
 				width="350px"
 				style="aspect-ratio: {post.meta.coverWidth} / {post.meta.coverHeight};transition: .2s;"
@@ -23,7 +23,7 @@
 		</p>
 
 		<a href={post.postPath}>
-			<h2 class="text-neutral-800 font-semibold text-xl mb-3 hover:text-pink-600">
+			<h2 class="text-neutral-800 font-semibold text-xl mb-3 hover:text-purple-600">
 				{post.meta.title}
 			</h2>
 		</a>
@@ -33,12 +33,12 @@
 		<a
 			href={post.postPath}
 			class="
-                text-pink-600
+                text-purple-600
                 font-medium
                 mt-3
                 inline-block
                 text-sm
-                hover:text-pink-900
+                hover:text-purple-900
             "
 		>
 			Read More &#8250;

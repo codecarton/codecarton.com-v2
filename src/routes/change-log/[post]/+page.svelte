@@ -1,6 +1,7 @@
 <script lang="ts">
 	import CoverPhotoCredit from './CoverPhotoCredit.svelte';
-
+	import SectionWrapper from '$lib/components/SectionWrapper.svelte';
+	import SignupCta from '$lib/components/SignupCTA.svelte';
 	import { generateFriendlyDate } from '$lib/utils/date';
 	import type { PageData } from './$types';
 
@@ -32,16 +33,16 @@
 	<meta name="twitter:title" content={title} />
 	<meta property="og:description" content={excerpt} />
 	<meta name="twitter:description" content={excerpt} />
-	<meta property="og:image" content="https://jordancalhoun.com/images/blog/{coverImage}" />
+	<meta property="og:image" content="https://codecarton.com/change-log/{coverImage}" />
 	<meta property="og:image:width" content={coverWidth} />
 	<meta property="og:image:height" content={coverHeight} />
-	<meta name="twitter:image" content="https://jordancalhoun.com/images/blog/{coverImage}" />
+	<meta name="twitter:image" content="https://codecarton.com/change-log/{coverImage}" />
 </svelte:head>
 
 <!-- TODO: Implement Share Actions -->
 <article class="mx-auto max-w-4xl md:my-10 md:px-10 prose prose-neutral">
 	<img
-		src="/images/blog/{coverImage}"
+		src="/change-log/{coverImage}"
 		alt=""
 		style="aspect-ratio: {coverWidth} / {coverHeight};"
 		class="
@@ -87,7 +88,7 @@
 		{/each}
 	</p>
 	<img
-		src="/images/blog/{coverImage}"
+		src="/change-log/{coverImage}"
 		alt=""
 		style="aspect-ratio: {coverWidth} / {coverHeight};"
 		class="
@@ -123,13 +124,5 @@
 	>
 		{@html data.PostContent}
 	</div>
-	<div class="md:p-10 mx-auto max-w-4xl">
-		<div class="mx-auto">
-			<script
-				async
-				data-uid="1f27309e3d"
-				src="https://codecarton.ck.page/1f27309e3d/index.js"
-			></script>
-		</div>
-	</div>
+	<SignupCta />
 </article>
