@@ -9,9 +9,9 @@
 </svelte:head>
 
 <img
-	src="/one16/iPhone-Hero.svg"
+	src="/one16/iPhone-Hero.webp"
 	alt="One16 - Fraction Calculator now on the app store"
-	class="mx-auto"
+	class="mx-auto sm:max-w-xl"
 />
 
 <div class="md:px-20 mx-auto max-w-7xl">
@@ -28,7 +28,7 @@
 </div>
 
 <FeatureCallout
-	imageSrc="/one16/screenshots/actions.svg"
+	imageSrc="/one16/screenshots/actions.webp"
 	title="Introducing Actions."
 	description="	Automate common calculations into fast actions. One of our favorites is calculating board
 	feet. We ship One16 with a few to get you started. But creating your own is where the power of
@@ -37,7 +37,7 @@
 />
 
 <FeatureCallout
-	imageSrc="/one16/screenshots/widgets.svg"
+	imageSrc="/one16/screenshots/widgets.webp"
 	title="Answers at a glance."
 	description="The next time saver are widgets. Designed with glanceability at their core. They give you quick
     references to your critical measurements without unlocking your phone or opening the app."
@@ -45,7 +45,7 @@
 />
 
 <FeatureCallout
-	imageSrc="/one16/screenshots/rounding.svg"
+	imageSrc="/one16/screenshots/rounding.webp"
 	title="Ready. Set. Round."
 	description="Rounding is a common task. One16 makes it easy to round to the nearest 1/16th, 1/8th, 1/4th, 1/2,
     or whole inch. We also support rounding to the nearest 1/32nd and 1/64th for those who need it."

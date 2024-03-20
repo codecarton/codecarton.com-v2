@@ -20,8 +20,8 @@
 	</div>
 
 	{#if imageAlt}
-		<div class="md:shrink-0 md:hidden mx-auto text-center">
-			<img src={imageSrc} alt={imageAlt} class="inline-block max-w-sm px-10" />
+		<div class="shrink md:hidden text-center">
+			<img src={imageSrc} alt={imageAlt} class="inline-block" />
 		</div>
 	{/if}
 </div>
