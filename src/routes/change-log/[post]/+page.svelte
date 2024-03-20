@@ -124,5 +124,14 @@
 	>
 		{@html data.PostContent}
 	</div>
-	<SignupCta />
+	<!-- <SignupCta /> -->
+	<!-- <SignupCta /> -->
+	<hr />
+	<div class="mx-auto px-10">
+		<script
+			async
+			data-uid="1f27309e3d"
+			src="https://codecarton.ck.page/1f27309e3d/index.js"
+		></script>
+	</div>
 </article>
