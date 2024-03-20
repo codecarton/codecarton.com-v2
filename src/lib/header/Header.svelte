@@ -14,11 +14,11 @@
 		{
 			name: 'Change Log',
 			href: '/change-log'
-		},
-		{
-			name: 'Mortise & Code',
-			href: 'https://mortiseandcode.com'
 		}
+		// {
+		// 	name: 'Mortise & Code',
+		// 	href: 'https://mortiseandcode.com'
+		// }
 	];
 
 	let path: string;
