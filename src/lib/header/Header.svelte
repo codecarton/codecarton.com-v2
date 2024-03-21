@@ -14,6 +14,10 @@
 		{
 			name: 'Change Log',
 			href: '/change-log'
+		},
+		{
+			name: 'Contact',
+			href: 'mailto:hello@codecarton.com'
 		}
 		// {
 		// 	name: 'Mortise & Code',
