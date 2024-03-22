@@ -19,7 +19,7 @@
 		Woodworking is fun. <span class="text-slate-800 block xl:inline">Math isn't.</span>
 	</h1>
 	<p class="text-center text-slate-400 text-xl leading-9 mb-32 max-w-3xl m-auto px-5">
-		Woodworking is fun. Math isn't. Making the most of our precious time in the shop is critical.
+		Making the most of our precious time in the shop is critical.
 		One16 can help. One16 was designed to respect your time, reduce errors, and make mundane math
 		operations less painful.
 
@@ -30,7 +30,7 @@
 <FeatureCallout
 	imageSrc="/one16/screenshots/actions.webp"
 	title="Introducing Actions."
-	description="	Automate common calculations into fast actions. One of our favorites is calculating board
+	description="Automate common calculations into fast actions. One of our favorites is calculating board
 	feet. We ship One16 with a few to get you started. But creating your own is where the power of
 	Actions shines."
 	imageAlt="Board Feet Calculator"
