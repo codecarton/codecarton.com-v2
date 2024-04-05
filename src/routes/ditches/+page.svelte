@@ -41,7 +41,7 @@
 	<p>If we know why we are triggered we can do something about it.</p>
 
 	<p class="font-bold">
-		Ditches is designed to discover our cues, give us clarity on what causes them, and design a
+		Ditches is designed to discover our cues, give us clarity on what causes them, and build a
 		system to replace them.
 	</p>
 
