@@ -12,17 +12,13 @@
 			href: '/one16'
 		},
 		{
-			name: 'Change Log',
-			href: '/change-log'
+			name: 'Ditches',
+			href: '/ditches'
 		},
 		{
-			name: 'Contact',
-			href: 'mailto:hello@codecarton.com'
+			name: 'Change Log',
+			href: '/change-log'
 		}
-		// {
-		// 	name: 'Mortise & Code',
-		// 	href: 'https://mortiseandcode.com'
-		// }
 	];
 
 	let path: string;
