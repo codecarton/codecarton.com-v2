@@ -26,17 +26,25 @@
 </script>
 
 <svelte:head>
-	<title>{title} by Jordan Calhoun</title>
+	<title>{title} - Code Carton</title>
 	<meta data-key="description" name="description" content={excerpt} />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={title} />
-	<meta name="twitter:title" content={title} />
 	<meta property="og:description" content={excerpt} />
-	<meta name="twitter:description" content={excerpt} />
 	<meta property="og:image" content="https://codecarton.com/change-log/{coverImage}" />
 	<meta property="og:image:width" content={coverWidth} />
 	<meta property="og:image:height" content={coverHeight} />
-	<meta name="twitter:image" content="https://codecarton.com/change-log/{coverImage}" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@codecarton" />
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:description" content={excerpt} />
+	<meta
+		name="twitter:image"
+		content="https://codecarton.com/change-log/{coverImage}"
+	/>
+	<meta property="og:twitter:width" content={coverWidth} />
+	<meta property="og:twitter:height" content={coverHeight} />
 </svelte:head>
 
 <!-- TODO: Implement Share Actions -->
