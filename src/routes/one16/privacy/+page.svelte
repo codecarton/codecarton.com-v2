@@ -6,82 +6,159 @@
 <div class="md:px-20 mx-auto max-w-4xl mt-10">
 	<strong>Privacy Policy</strong>
 	<p>
-		Code Carton, LLC built the One16 app as a Commercial app. This SERVICE is provided by Code
-		Carton, LLC and is intended for use as is.
+		This privacy policy applies to the One16 app (hereby referred to as "Application") for mobile
+		devices that was created by Code Carton, LLC (hereby referred to as "Service Provider") as a
+		Freemium service. This service is intended for use "AS IS".
 	</p>
+	<br /><strong>Information Collection and Use</strong>
 	<p>
-		This page is used to inform visitors regarding our policies with the collection, use, and
-		disclosure of Personal Information if anyone decided to use our Service.
+		The Application collects information when you download and use it. This information may include
+		information such as
 	</p>
+	<ul>
+		<li>Your device's Internet Protocol address (e.g. IP address)</li>
+		<li>
+			The pages of the Application that you visit, the time and date of your visit, the time spent
+			on those pages
+		</li>
+		<li>The time spent on the Application</li>
+		<li>The operating system you use on your mobile device</li>
+	</ul>
+	<p />
+	<br />
 	<p>
-		If you choose to use our Service, then you agree to the collection and use of information in
-		relation to this policy. The Personal Information that we collect is used for providing and
-		improving the Service. We will not use or share your information with anyone except as described
-		in this Privacy Policy.
+		The Application does not gather precise information about the location of your mobile device.
 	</p>
-	<p>
-		The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions,
-		which are accessible at One16 unless otherwise defined in this Privacy Policy.
-	</p>
-	<p><strong>Information Collection and Use</strong></p>
-	<p>We do not collect any information that could be identified as yours.</p>
-	<!---->
-	<p><strong>Log Data</strong></p>
-	<p>
-		We want to inform you that whenever you use our Service, in a case of an error in the app we
-		collect data and information on your phone called Log Data. This Log Data may include
-		information such as device version, operating system version, the configuration of the app when
-		utilizing our Service, the time and date of your use of the Service, and other statistics.
-	</p>
-	<p><strong>Cookies</strong></p>
-	<p>One16 does not use any cookies.</p>
-
-	<p><strong>Security</strong></p>
-	<p>We value your trust, thus we do not collect any personal information about you.</p>
-	<p><strong>Links to Other Sites</strong></p>
-	<p>
-		This Service may contain links to other sites. If you click on a third-party link, you will be
-		directed to that site. Note that these external sites are not operated by us. Therefore, we
-		strongly advise you to review the Privacy Policy of these websites. We have no control over and
-		assume no responsibility for the content, privacy policies, or practices of any third-party
-		sites or services.
-	</p>
-	<p><strong>Children's Privacy</strong></p>
-	<!---->
-	<div>
+	<div style="display: none;">
 		<p>
-			We do not knowingly collect personally identifiable information from children. We encourage
-			all children to never submit any personally identifiable information through the Application
-			and/or Services. We encourage parents and legal guardians to monitor their children's Internet
-			usage and to help enforce this Policy by instructing their children never to provide
-			personally identifiable information through the Application and/or Services without their
-			permission. If you have reason to believe that a child has provided personally identifiable
-			information to us through the Application and/or Services, please contact us. You must also be
-			at least 16 years of age to consent to the processing of your personally identifiable
-			information in your country (in some countries we may allow your parent or guardian to do so
-			on your behalf).
+			The Application collects your device's location, which helps the Service Provider determine
+			your approximate geographical location and make use of in below ways:
+		</p>
+		<ul>
+			<li>
+				Geolocation Services: The Service Provider utilizes location data to provide features such
+				as personalized content, relevant recommendations, and location-based services.
+			</li>
+			<li>
+				Analytics and Improvements: Aggregated and anonymized location data helps the Service
+				Provider to analyze user behavior, identify trends, and improve the overall performance and
+				functionality of the Application.
+			</li>
+			<li>
+				Third-Party Services: Periodically, the Service Provider may transmit anonymized location
+				data to external services. These services assist them in enhancing the Application and
+				optimizing their offerings.
+			</li>
+		</ul>
+	</div>
+	<br />
+	<p>
+		The Service Provider may use the information you provided to contact you from time to time to
+		provide you with important information, required notices and marketing promotions.
+	</p>
+	<br />
+	<p>
+		For a better experience, while using the Application, the Service Provider may require you to
+		provide us with certain personally identifiable information, including but not limited to
+		Purchase Information. The information that the Service Provider request will be retained by them
+		and used as described in this privacy policy.
+	</p>
+	<br /><strong>Third Party Access</strong>
+	<p>
+		Only aggregated, anonymized data is periodically transmitted to external services to aid the
+		Service Provider in improving the Application and their service. The Service Provider may share
+		your information with third parties in the ways that are described in this privacy statement.
+	</p>
+	<div>
+		<br />
+		<p>
+			Please note that the Application utilizes third-party services that have their own Privacy
+			Policy about handling data. Below are the links to the Privacy Policy of the third-party
+			service providers used by the Application:
+		</p>
+		<ul>
+			<!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+			<li>
+				<a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer"
+					>RevenueCat</a
+				>
+			</li>
+			<!----><!----><!----><!---->
+		</ul>
+	</div>
+	<br />
+	<p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
+	<ul>
+		<li>as required by law, such as to comply with a subpoena, or similar legal process;</li>
+		<li>
+			when they believe in good faith that disclosure is necessary to protect their rights, protect
+			your safety or the safety of others, investigate fraud, or respond to a government request;
+		</li>
+		<li>
+			with their trusted services providers who work on their behalf, do not have an independent use
+			of the information we disclose to them, and have agreed to adhere to the rules set forth in
+			this privacy statement.
+		</li>
+	</ul>
+	<p />
+	<br /><strong>Opt-Out Rights</strong>
+	<p>
+		You can stop all collection of information by the Application easily by uninstalling it. You may
+		use the standard uninstall processes as may be available as part of your mobile device or via
+		the mobile application marketplace or network.
+	</p>
+	<br /><strong>Data Retention Policy</strong>
+	<p>
+		The Service Provider will retain User Provided data for as long as you use the Application and
+		for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have
+		provided via the Application, please contact them at hello@codecarton.com and they will respond
+		in a reasonable time.
+	</p>
+	<br /><strong>Children</strong>
+	<p>
+		The Service Provider does not use the Application to knowingly solicit data from or market to
+		children under the age of 13.
+	</p>
+	<div>
+		<br />
+		<p>
+			The Application does not address anyone under the age of 13. The Service Provider does not
+			knowingly collect personally identifiable information from children under 13 years of age. In
+			the case the Service Provider discover that a child under 13 has provided personal
+			information, the Service Provider will immediately delete this from their servers. If you are
+			a parent or guardian and you are aware that your child has provided us with personal
+			information, please contact the Service Provider (hello@codecarton.com) so that they will be
+			able to take the necessary actions.
 		</p>
 	</div>
-	<p><strong>Changes to This Privacy Policy</strong></p>
+	<!----><br /><strong>Security</strong>
 	<p>
-		We may update our Privacy Policy from time to time. Thus, you are advised to review this page
-		periodically for any changes. We will notify you of any changes by posting the new Privacy
-		Policy on this page.
+		The Service Provider is concerned about safeguarding the confidentiality of your information.
+		The Service Provider provides physical, electronic, and procedural safeguards to protect
+		information the Service Provider processes and maintains.
 	</p>
-	<p>This policy is effective as of 2023-03-19</p>
-	<p><strong>Contact Us</strong></p>
+	<br /><strong>Changes</strong>
 	<p>
-		If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us
-		at hello@codecarton.com.
+		This Privacy Policy may be updated from time to time for any reason. The Service Provider will
+		notify you of any changes to the Privacy Policy by updating this page with the new Privacy
+		Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued
+		use is deemed approval of all changes.
 	</p>
-	<p style="margin-top: 200px;">
-		This privacy policy page was created at <a
-			href="https://privacypolicytemplate.net"
-			target="_blank"
-			rel="noopener noreferrer"
-			>privacypolicytemplate.net
-		</a>and modified/generated by
-		<a
+	<br />
+	<p>This privacy policy is effective as of 2024-07-05</p>
+	<br /><strong>Your Consent</strong>
+	<p>
+		By using the Application, you are consenting to the processing of your information as set forth
+		in this Privacy Policy now and as amended by us.
+	</p>
+	<br /><strong>Contact Us</strong>
+	<p>
+		If you have any questions regarding privacy while using the Application, or have questions about
+		the practices, please contact the Service Provider via email at hello@codecarton.com.
+	</p>
+	<hr />
+	<p>
+		This privacy policy page was generated by <a
 			href="https://app-privacy-policy-generator.nisrulz.com/"
 			target="_blank"
 			rel="noopener noreferrer">App Privacy Policy Generator</a
@@ -93,5 +170,26 @@
 	strong {
 		display: block;
 		margin-top: 20px;
+	}
+
+	p {
+		margin-bottom: 20px;
+	}
+
+	h2 {
+		font-size: 30px !important;
+		font-weight: bold;
+		margin-top: 40px;
+	}
+
+	h3 {
+		font-size: 20px;
+		font-weight: 600;
+		margin-bottom: 5px;
+		margin-top: 10px;
+	}
+	li {
+		list-style-type: disc;
+		margin: 20px;
 	}
 </style>
