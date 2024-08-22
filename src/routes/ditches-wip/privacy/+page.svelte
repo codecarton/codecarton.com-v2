@@ -6,7 +6,7 @@
 <div class="md:px-20 mx-auto max-w-4xl mt-10">
 	<strong>Privacy Policy</strong>
 	<p>
-		This privacy policy applies to the Ditches app (hereby referred to as "Application") for mobile
+		This privacy policy applies to the One16 app (hereby referred to as "Application") for mobile
 		devices that was created by Code Carton, LLC (hereby referred to as "Service Provider") as a
 		Freemium service. This service is intended for use "AS IS".
 	</p>
