@@ -11,11 +11,11 @@
 <img
 	src="/ditches/ditches-app.webp"
 	alt="Ditches - Bury Bad Habits and Addictions now on the app store"
-	class="mx-auto sm:max-w-md"
+	class="mx-auto sm:max-w-md mt-12"
 />
 
 <div class="md:px-20 mx-auto max-w-7xl">
-	<h1 class="mt-32 mb-7 text-black text-6xl text-center font-semibold px-5">
+	<h1 class="mt-7 mb-7 text-black text-6xl text-center font-semibold px-5">
 		Bury Bad Habits &amp; Addictions
 	</h1>
 	<p class="text-center text-gray-400 text-xl leading-9 mb-32 max-w-3xl m-auto px-5">
