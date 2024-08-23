@@ -5,93 +5,95 @@
 </script>
 
 <svelte:head>
-	<title>One16 - Woodworking Calculator</title>
+	<title>Ditches - Bury Bad Habits and Addictions</title>
 </svelte:head>
 
 <img
-	src="/one16/iPhone-Hero.webp"
-	alt="One16 - Fraction Calculator now on the app store"
-	class="mx-auto sm:max-w-xl"
+	src="/ditches/ditches-app.webp"
+	alt="Ditches - Bury Bad Habits and Addictions now on the app store"
+	class="mx-auto sm:max-w-md"
 />
 
 <div class="md:px-20 mx-auto max-w-7xl">
-	<h1 class="mt-32 mb-7 text-purple-600 text-6xl text-center font-semibold px-5">
-		Woodworking is fun. <span class="text-slate-800 block xl:inline">Math isn't.</span>
+	<h1 class="mt-32 mb-7 text-black text-6xl text-center font-semibold px-5">
+		Bury Bad Habits &amp; Addictions
 	</h1>
-	<p class="text-center text-slate-400 text-xl leading-9 mb-32 max-w-3xl m-auto px-5">
-		Making the most of our precious time in the shop is critical.
-		One16 can help. One16 was designed to respect your time, reduce errors, and make mundane math
-		operations less painful.
+	<p class="text-center text-gray-400 text-xl leading-9 mb-32 max-w-3xl m-auto px-5">
+		Discover your craving patterns, get clarity on what causes them, and build a system to break
+		your addictions.
 
-		<AppStoreBadge />
+		<!-- <AppStoreBadge /> -->
 	</p>
 </div>
 
 <FeatureCallout
-	imageSrc="/one16/screenshots/actions.webp"
-	title="Introducing Actions."
-	description="Automate common calculations into fast actions. One of our favorites is calculating board
-	feet. We ship One16 with a few to get you started. But creating your own is where the power of
-	Actions shines."
-	imageAlt="Board Feet Calculator"
+	imageSrc="/ditches/screenshots/insights.webp"
+	title="Gain Insights"
+	description="Insights allows you to quickly see when you are most vulnerable to your cravings. This
+	information can help you build a system to break your addictions."
+	imageAlt="Insights Screenshot"
 />
 
 <FeatureCallout
-	imageSrc="/one16/screenshots/widgets.webp"
-	title="Answers at a glance."
-	description="The next time saver are widgets. Designed with glanceability at their core. They give you quick
-    references to your critical measurements without unlocking your phone or opening the app."
+	imageSrc="/ditches/screenshots/widgets.webp"
+	title="Streaks at a Glance"
+	description="Streaks can be highly motivating. Widgets allow you to see your current streaks at a glance and quickly get to your addiction."
 	imageAlt="Widgets"
 />
 
 <FeatureCallout
-	imageSrc="/one16/screenshots/rounding.webp"
-	title="Ready. Set. Round."
-	description="Rounding is a common task. One16 makes it easy to round to the nearest 1/16th, 1/8th, 1/4th, 1/2,
-    or whole inch. We also support rounding to the nearest 1/32nd and 1/64th for those who need it."
-	imageAlt="Rounding to the nearest 1/16th, 1/8th, 1/4th, 1/2, or whole inch. We also support rounding to the nearest 1/32nd and 1/64th for those who need it."
+	imageSrc="/ditches/screenshots/blueprints.webp"
+	title="Reminders"
+	description="We all need a little help sometimes. Set reminders to help you stay on track and keep why you are quitting top of mind."
+	imageAlt="Reminders Screenshot"
 />
 
 <FeatureCallout
-	title="Equation Builder."
-	description="We reference the same value multiple times. But not for related steps. Equation Builder saves you
-    time by quickly reusing previous values. Double tap a previous value to copy it to your active term."
+	title="Monocrhome Design"
+	description="Reduce stimulation and focus on what matters. Monochrome design helps you focus on your goals and not the app."
+/>
+
+<FeatureCallout
+	title="Streak History"
+	description="See how you are doing over time. Streak history allows you to see your progress and where you might need to focus more."
+/>
+
+<FeatureCallout
+	title="Craving History"
+	description="Update your craving history or see when you are most vulnerable. This information can help you build a system to break your addictions."
 />
 
 <SectionWrapper>
-	<h2 class="mt-32 mb-7 text-slate-700 text-5xl text-center font-semibold px-5">
+	<h2 class="mt-32 mb-7 text-gray-700 text-5xl text-center font-semibold px-5">
 		Private By Default.
 	</h2>
-	<p class="text-center text-slate-400 text-xl leading-9 mb-32 max-w-3xl m-auto px-5">
-		Privacy is at the core of all our products. One16 doesn't track any data about you or your
+	<p class="text-center text-gray-400 text-xl leading-9 mb-32 max-w-3xl m-auto px-5">
+		Privacy is at the core of all our products. Ditches doesn't track any data about you or your
 		usage. If you do find a bug, please reach out to us! We will do our best to get it fixed in a
 		timely manner. We love chatting with our users!
 	</p>
 </SectionWrapper>
 
 <SectionWrapper>
-	<h3 class="mt-32 mb-7 text-slate-700 text-3xl text-center font-semibold px-5">...and more</h3>
+	<h3 class="mt-32 mb-7 text-gray-700 text-3xl text-center font-semibold px-5">...and more</h3>
 	<ul
-		class="list-none list-inside text-center text-slate-400 text-xl leading-9 mb-32 max-w-3xl m-auto px-5"
+		class="list-none list-inside text-center text-gray-400 text-xl leading-9 mb-32 max-w-3xl m-auto px-5"
 	>
-		<li>Denominator Keyboard</li>
-		<li>Decimal to Fraction conversion</li>
-		<li>Simplify fractions</li>
-		<li>Add, Subtract, Multiply, Divide fractions and decimals</li>
-		<li>Left Handed Keypad</li>
-		<li>Privacy Focused</li>
+		<li>Streak Granularity</li>
+		<li>Log Cravings</li>
+		<li>Light & Dark Mode</li>
 	</ul>
 </SectionWrapper>
 
 <SectionWrapper>
-	<p class="text-center text-slate-400 text-xl leading-9 max-w-3xl m-auto px-5">
-		One16 is built by a weekend woodworker with a family and full-time job. This is who this app is
-		designed for. Have a feature suggestion? <a
+	<p class="text-center text-gray-400 text-xl leading-9 max-w-3xl m-auto px-5">
+		Ditches is built by a indie developer with a family, full-time job and who has struggled with
+		addiction throughout his life. Have a feature suggestion? <a
 			href="mailto:hello@codecarton.com"
-			class="text-purple-600 hover:text-purple-800 hover:underline hover:underline-offset-4"
+			class="text-gray-600 hover:text-gray-800 hover:underline hover:underline-offset-4"
 			>Let us know!</a
 		>
 	</p>
 
-	<AppStoreBadge />
+	<!-- <AppStoreBadge /> -->
 </SectionWrapper>
