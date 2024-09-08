@@ -49,7 +49,7 @@
 />
 
 <FeatureCallout
-	title="Monocrhome Design"
+	title="Monochrome Design"
 	description="Reduce stimulation and focus on what matters. Monochrome design helps you focus on your goals and not the app."
 />
 
