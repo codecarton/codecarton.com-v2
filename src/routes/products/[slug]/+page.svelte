@@ -10,17 +10,6 @@
 	title={`${product.name} — Code Carton`}
 	description={product.summary}
 	socialImage={product.visual.kind === 'image' ? product.visual.src : undefined}
-	jsonLd={{
-		'@context': 'https://schema.org',
-		'@type': 'SoftwareApplication',
-		name: product.name,
-		description: product.summary,
-		operatingSystem: product.platform,
-		applicationCategory: 'UtilitiesApplication',
-		...(product.availability === 'Free'
-			? { offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } }
-			: {})
-	}}
 />
 
 <section class="page-frame product-header" aria-labelledby="product-heading">

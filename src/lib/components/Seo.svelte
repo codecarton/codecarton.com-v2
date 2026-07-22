@@ -8,11 +8,9 @@
 	export let socialImage: string | undefined = undefined;
 	export let canonicalPath: string | undefined = undefined;
 	export let noIndex = false;
-	export let jsonLd: Record<string, unknown> | undefined = undefined;
 
 	$: canonicalUrl = `${siteUrl}${canonicalPath ?? $page.url.pathname}`;
 	$: imageUrl = `${siteUrl}/social-card.svg?${new URLSearchParams({ title, description, ...(socialImage ? { image: socialImage } : {}) })}`;
-	$: serializedJsonLd = jsonLd ? JSON.stringify(jsonLd).replace(/</g, '\\u003c') : undefined;
 </script>
 
 <svelte:head>
@@ -32,7 +30,4 @@
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={imageUrl} />
-	{#if serializedJsonLd}
-		{@html `<script type="application/ld+json">${serializedJsonLd}</script>`}
-	{/if}
 </svelte:head>

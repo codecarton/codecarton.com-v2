@@ -5,19 +5,11 @@
 
 	const featuredProduct = products.find((product) => product.slug === 'swiftpkg');
 	const recentEntries = developerLogEntries.slice(0, 3);
-	const organizationJsonLd = {
-		'@context': 'https://schema.org',
-		'@type': 'Organization',
-		name: 'Code Carton',
-		url: 'https://codecarton.com',
-		logo: 'https://codecarton.com/favicon/favicon.svg'
-	};
 </script>
 
 <Seo
 	title="Code Carton"
 	description="Code Carton makes focused products and shares the thinking that shapes them."
-	jsonLd={organizationJsonLd}
 />
 
 <section class="page-frame home-introduction" aria-labelledby="home-heading">
