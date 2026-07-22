@@ -3,8 +3,8 @@
 </script>
 
 {#if active}
-	<span id="crisp-circle" />
-	<span id="blurred-circle" />
+	<span id="crisp-circle"></span>
+	<span id="blurred-circle"></span>
 {/if}
 
 <style>

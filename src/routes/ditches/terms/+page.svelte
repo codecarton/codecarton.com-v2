@@ -19,8 +19,8 @@
 
 	<ul>
 		<li>
-			<b>Application</b> means the software program provided by the Company downloaded by You on any
-			electronic device, named Ditches
+			<b>Application</b> means the software program provided by the Company downloaded by You on any electronic
+			device, named Ditches
 		</li>
 		<li>
 			<b>Application Store</b> means the digital distribution service operated and developed by Apple
@@ -48,9 +48,9 @@
 			<b>Free Trial</b> refers to a limited period of time that may be free when purchasing a Subscription.
 		</li>
 		<li>
-			<b>In-app Purchase</b> refers to the purchase of a product, item, service or Subscription made
-			through the Application and subject to these Terms and Conditions and/or the Application Store's
-			own terms and conditions.
+			<b>In-app Purchase</b> refers to the purchase of a product, item, service or Subscription made through
+			the Application and subject to these Terms and Conditions and/or the Application Store's own terms
+			and conditions.
 		</li>
 		<li><b>Service</b> refers to the Application.</li>
 		<li>
@@ -67,8 +67,8 @@
 			by the Service.
 		</li>
 		<li>
-			<b>You</b> means the individual accessing or using the Service, or the company, or other legal
-			entity on behalf of which such individual is accessing or using the Service, as applicable.
+			<b>You</b> means the individual accessing or using the Service, or the company, or other legal entity
+			on behalf of which such individual is accessing or using the Service, as applicable.
 		</li>
 	</ul>
 

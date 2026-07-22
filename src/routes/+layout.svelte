@@ -2,7 +2,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/header/Header.svelte';
 	import { fade } from 'svelte/transition';
-	import '../app.scss';
+	import '../app.css';
 	import type { PageData } from './$types';
 
 	export let data: PageData;

@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { Popover, PopoverButton } from '@rgossiaux/svelte-headlessui';
 	import { Bars3 } from 'svelte-heros-v2';
 	import NavPopoverPanel from './NavPopoverPanel.svelte';
 	import { page } from '$app/stores';
@@ -22,10 +21,11 @@
 	];
 
 	let path: string;
+	let mobileMenuOpen = false;
 	$: path = $page.url.pathname;
 </script>
 
-<Popover class="relative bg-white border-2 border-slate-100">
+<header class="relative bg-white border-2 border-slate-100">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6">
 		<div class="flex items-center justify-between py-6 md:justify-start md:space-x-10">
 			<!-- Logo Div -->
@@ -41,7 +41,8 @@
 
 			<!-- Mobile navigation toggle-->
 			<div class="md:hidden">
-				<PopoverButton
+				<button
+					type="button"
 					class="
                       inline-flex
                       items-center
@@ -57,14 +58,23 @@
                       focus:ring-inset
                       focus:ring-slate-500
                   "
+					on:click={() => {
+						mobileMenuOpen = true;
+					}}
 				>
 					<span class="sr-only">Open menu</span>
 					<Bars3 class="h-6 w-6" aria-hidden="true" />
-				</PopoverButton>
+				</button>
 			</div>
 
 			<!-- Mobile Navigation Popover -->
-			<NavPopoverPanel {navLinks} />
+			<NavPopoverPanel
+				{navLinks}
+				open={mobileMenuOpen}
+				closeMenu={() => {
+					mobileMenuOpen = false;
+				}}
+			/>
 
 			<!-- Desktop Navigation -->
 			<div class="md:flex hidden font-lg">
@@ -74,4 +84,4 @@
 			</div>
 		</div>
 	</div>
-</Popover>
+</header>

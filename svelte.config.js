@@ -1,17 +1,13 @@
 import adapter from '@sveltejs/adapter-netlify';
-import preprocess from 'svelte-preprocess';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// Consult https://github.com/sveltejs/svelte-preprocess
-	// for more information about preprocessors
 	preprocess: [
-		preprocess({
-			postcss: true
-		}),
+		vitePreprocess(),
 		mdsvex({
 			extensions: ['.md'],
 			rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings]

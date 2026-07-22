@@ -22,7 +22,7 @@
 		Discover your craving patterns, get clarity on what causes them, and build a system to break
 		your addictions.
 
-		<!-- <AppStoreBadge /> -->
+		<AppStoreBadge />
 	</p>
 </div>
 

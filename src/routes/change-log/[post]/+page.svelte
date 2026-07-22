@@ -1,7 +1,5 @@
 <script lang="ts">
 	import CoverPhotoCredit from './CoverPhotoCredit.svelte';
-	import SectionWrapper from '$lib/components/SectionWrapper.svelte';
-	import SignupCta from '$lib/components/SignupCTA.svelte';
 	import { generateFriendlyDate } from '$lib/utils/date';
 	import type { PageData } from './$types';
 
@@ -39,10 +37,7 @@
 	<meta name="twitter:creator" content="@codecarton" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={excerpt} />
-	<meta
-		name="twitter:image"
-		content="https://codecarton.com/change-log/{coverImage}"
-	/>
+	<meta name="twitter:image" content="https://codecarton.com/change-log/{coverImage}" />
 	<meta property="og:twitter:width" content={coverWidth} />
 	<meta property="og:twitter:height" content={coverHeight} />
 </svelte:head>

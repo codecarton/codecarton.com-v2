@@ -19,9 +19,8 @@
 		Woodworking is fun. <span class="text-slate-800 block xl:inline">Math isn't.</span>
 	</h1>
 	<p class="text-center text-slate-400 text-xl leading-9 mb-32 max-w-3xl m-auto px-5">
-		Making the most of our precious time in the shop is critical.
-		One16 can help. One16 was designed to respect your time, reduce errors, and make mundane math
-		operations less painful.
+		Making the most of our precious time in the shop is critical. One16 can help. One16 was designed
+		to respect your time, reduce errors, and make mundane math operations less painful.
 
 		<AppStoreBadge />
 	</p>
