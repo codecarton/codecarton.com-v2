@@ -10,7 +10,7 @@ products:
 topics:
   - 'Engineering'
 cover:
-  src: '/change-log/version-2-1-0-banner.jpg'
+  src: '/developer-log/one16-version-2-1-0-released/cover.jpg'
   alt: 'One16 Version 2.1.0 release banner'
 ---
 

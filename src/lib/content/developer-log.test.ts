@@ -5,6 +5,7 @@ import {
 	type DeveloperLogModule
 } from './developer-log';
 import { createDeveloperLogRss } from './developer-log-rss';
+import { createDeveloperLogSitemap } from './developer-log-sitemap';
 
 const modules: Record<string, DeveloperLogModule> = {
 	'/src/lib/developer-log/release.md': {
@@ -96,5 +97,14 @@ describe('Developer Log content seam', () => {
 
 		expect(rss).toContain('https://codecarton.com/developer-log/a-release');
 		expect(rss).toContain('<content:encoded><![CDATA[<p>A release.</p>]]></content:encoded>');
+	});
+
+	it('uses only published entries in the sitemap', () => {
+		const entries = parseDeveloperLogEntries(modules, new Date('2024-08-01'));
+		const sitemap = createDeveloperLogSitemap(entries, 'https://codecarton.com');
+
+		expect(sitemap).toContain('https://codecarton.com/developer-log/a-release');
+		expect(sitemap).not.toContain('a-draft');
+		expect(sitemap).not.toContain('a-future-entry');
 	});
 });

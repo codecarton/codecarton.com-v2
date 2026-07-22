@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Figure from '$lib/developer-log/Figure.svelte';
 	import type { PageData } from './$types';
 	export let data: PageData;
 </script>
@@ -14,15 +15,17 @@
 		<span>{data.entry.type}</span><time datetime={data.entry.publishedAt}
 			>{data.entry.publishedAt}</time
 		><span>By {data.entry.author}</span>
+		{#if data.entry.updatedAt}<time datetime={data.entry.updatedAt}
+				>Updated {data.entry.updatedAt}</time
+			>{/if}
 	</div>
 	<h1 id="entry-heading" class="editorial-heading">{data.entry.title}</h1>
 	<p class="lede">{data.entry.summary}</p>
-	{#if data.entry.cover}<figure>
-			<img
-				src={data.entry.cover.src}
-				alt={data.entry.cover.alt}
-			/>{#if data.entry.cover.caption}<figcaption>{data.entry.cover.caption}</figcaption>{/if}
-		</figure>{/if}
+	{#if data.entry.cover}<Figure
+			src={data.entry.cover.src}
+			alt={data.entry.cover.alt}
+			caption={data.entry.cover.caption}
+		/>{/if}
 	<div class="content">{@html data.entry.content}</div>
 </article>
 
@@ -50,23 +53,6 @@
 		font-family: ui-monospace, monospace;
 		font-size: 0.6875rem;
 		font-weight: 700;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-	}
-	figure {
-		margin: 48px 0;
-		padding: 24px;
-		background: #efede6;
-	}
-	img {
-		display: block;
-		max-width: 100%;
-		margin-inline: auto;
-	}
-	figcaption {
-		margin-top: 16px;
-		font-family: ui-monospace, monospace;
-		font-size: 0.6875rem;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
 	}
