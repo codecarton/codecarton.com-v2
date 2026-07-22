@@ -1,10 +1,11 @@
 <script lang="ts">
 	import Seo from '$lib/components/Seo.svelte';
-	import { developerLogEntries } from '$lib/content/developer-log';
 	import { products } from '$lib/content/products';
+	import type { PageData } from './$types';
+
+	export let data: PageData;
 
 	const featuredProduct = products.find((product) => product.slug === 'swiftpkg');
-	const recentEntries = developerLogEntries.slice(0, 3);
 </script>
 
 <Seo
@@ -65,7 +66,7 @@
 		<span class="section-label">03 / Developer Log</span>
 		<h2 id="recent-heading">Notes from the work behind the work.</h2>
 		<div class="recent-entries">
-			{#each recentEntries as entry}
+			{#each data.recentEntries as entry}
 				<article>
 					<span>{entry.type} / {entry.publishedAt}</span>
 					<h3><a href={`/developer-log/${entry.slug}`}>{entry.title}</a></h3>
