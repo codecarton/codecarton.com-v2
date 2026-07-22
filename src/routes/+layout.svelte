@@ -13,7 +13,9 @@
 	<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
 </svelte:head>
 
-<Header />
+{#if data.currentRoute !== '/'}
+	<Header />
+{/if}
 
 {#key data.currentRoute}
 	<main
@@ -25,4 +27,6 @@
 	</main>
 {/key}
 
-<Footer />
+{#if data.currentRoute !== '/'}
+	<Footer />
+{/if}
