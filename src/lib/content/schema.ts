@@ -10,12 +10,18 @@ export type DeveloperLogTopic = (typeof developerLogTopics)[number];
 export type ProductAvailability = 'Free' | 'One-time purchase' | 'Subscription' | 'Open source';
 export type ProductStatus = 'In development' | 'Beta' | 'Maintenance' | 'Archived';
 
+export interface ProductLink {
+	label: string;
+	href: string;
+}
+
 export interface ProductMetadata {
 	name: string;
 	slug: ProductSlug;
 	summary: string;
-	primaryAction: { label: string; href: string };
+	primaryAction: ProductLink;
 	availability: ProductAvailability;
+	availabilityNote?: string;
 	platform: string;
 	status?: ProductStatus;
 }
