@@ -45,6 +45,7 @@
 
 <style>
 	.entry {
+		max-width: 44rem;
 		padding-top: clamp(96px, 16vw, 224px);
 		padding-bottom: 96px;
 	}
@@ -59,7 +60,6 @@
 		text-transform: uppercase;
 	}
 	.content {
-		max-width: 44rem;
 		font-size: 1.125rem;
 		line-height: 1.7;
 	}
@@ -81,7 +81,7 @@
 		max-width: 16ch;
 		margin: 20px 0 0;
 		font-family: Georgia, 'Times New Roman', serif;
-		font-size: clamp(2rem, 4vw, 3.5rem);
+		font-size: var(--editorial-section-size);
 		font-weight: 400;
 		letter-spacing: -0.035em;
 		line-height: 1;

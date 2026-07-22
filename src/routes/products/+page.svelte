@@ -77,7 +77,7 @@
 	h2 {
 		margin: 0;
 		font-family: Georgia, 'Times New Roman', serif;
-		font-size: clamp(2rem, 4vw, 3.5rem);
+		font-size: var(--editorial-list-size);
 		font-weight: 400;
 		letter-spacing: -0.04em;
 		line-height: 1;

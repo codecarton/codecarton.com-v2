@@ -11,16 +11,15 @@
 <style>
 	figure {
 		margin: 2rem 0;
-		padding: 1rem;
+		padding: 0 0 1rem;
 		background: #efede6;
 	}
 	img {
 		display: block;
-		max-width: 100%;
-		margin-inline: auto;
+		width: 100%;
 	}
 	figcaption {
-		margin-top: 1rem;
+		margin: 1rem 1rem 0;
 		font-family: ui-monospace, monospace;
 		font-size: 0.75rem;
 		letter-spacing: 0.08em;

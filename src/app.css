@@ -2,6 +2,9 @@
 @config '../tailwind.config.cjs';
 
 :root {
+	--editorial-display-size: clamp(2.5rem, 5.5vw, 4.75rem);
+	--editorial-section-size: clamp(2rem, 3.5vw, 3.25rem);
+	--editorial-list-size: clamp(1.75rem, 3vw, 3rem);
 	font-family: Arial, Helvetica, sans-serif;
 	color: #20201d;
 	background: #e5e2da;
@@ -76,7 +79,7 @@ button {
 	max-width: 12ch;
 	margin: 24px 0 0;
 	font-family: Georgia, 'Times New Roman', serif;
-	font-size: clamp(2.75rem, 7vw, 6.5rem);
+	font-size: var(--editorial-display-size);
 	font-weight: 400;
 	letter-spacing: -0.045em;
 	line-height: 0.94;

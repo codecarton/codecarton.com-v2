@@ -94,7 +94,7 @@
 		max-width: 18ch;
 		margin: 24px 0 32px;
 		font-family: Georgia, 'Times New Roman', serif;
-		font-size: clamp(2rem, 4vw, 3.5rem);
+		font-size: var(--editorial-section-size);
 		font-weight: 400;
 		letter-spacing: -0.035em;
 		line-height: 1;

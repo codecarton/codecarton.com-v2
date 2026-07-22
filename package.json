@@ -6,6 +6,7 @@
 		"dev": "vite dev",
 		"build": "pnpm run validate:links && vite build",
 		"test": "vitest run",
+		"test:e2e": "playwright test",
 		"validate:links": "node scripts/validate-internal-links.mjs",
 		"preview": "vite preview",
 		"start": "node build",
@@ -16,6 +17,7 @@
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
+		"@playwright/test": "^1.61.1",
 		"@sveltejs/adapter-auto": "^7.0.1",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.60.1",

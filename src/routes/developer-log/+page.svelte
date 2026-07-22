@@ -111,7 +111,7 @@
 	h2 {
 		max-width: 16ch;
 		margin: 20px 0 0;
-		font-size: clamp(2rem, 4vw, 3.5rem);
+		font-size: var(--editorial-section-size);
 		line-height: 1;
 	}
 	.rss-link {
@@ -186,7 +186,7 @@
 	h3 {
 		max-width: 18ch;
 		margin: 16px 0 0;
-		font-size: clamp(1.75rem, 4vw, 3.5rem);
+		font-size: var(--editorial-list-size);
 		line-height: 1;
 	}
 	h3 a {
