@@ -92,8 +92,15 @@
 	<span class="section-label">{product.installation ? '05' : '04'} / More</span>
 	<h2 id="utility-heading">From the work behind the work.</h2>
 	<p>
-		<a class="quiet-link" href="/developer-log">Related Developer Log entries are on the way.</a>
+		<a class="quiet-link" href="/developer-log">Browse the Developer Log.</a>
 	</p>
+	{#if data.relatedEntries.length}
+		<ul class="related-entries">
+			{#each data.relatedEntries as entry}
+				<li><a class="quiet-link" href={`/developer-log/${entry.slug}`}>{entry.title}</a></li>
+			{/each}
+		</ul>
+	{/if}
 	{#if product.utilityLinks.length}
 		<nav aria-label={`${product.name} utility links`}>
 			{#each product.utilityLinks as link}
@@ -255,6 +262,10 @@
 		flex-wrap: wrap;
 		gap: 12px 24px;
 		margin-top: 24px;
+	}
+
+	.related-entries {
+		margin: 24px 0 0;
 	}
 
 	@media (max-width: 767px) {
