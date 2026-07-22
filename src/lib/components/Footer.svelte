@@ -1,22 +1,55 @@
-<footer class="mb-10 my-10">
-	<div
-		class="mx-auto md:max-w-4xl lg:max-w-6xl px-5 pt-5 border-t-2 border-neutral-50 grid grid-cols-2"
-	>
-		<p class="text-slate-400">
-			&copy; {new Date().getFullYear()} <span class="hidden md:inline">Code Carton</span>
-		</p>
-		<p class="text-neutral-400 text-right">
-			<a href="mailto:hello@codecarton.com" target="_blank" class="hover:text-pink-700">Contact</a>
-
-			<a href="https://mortiseandcode.com" target="_blank" class="hover:text-pink-700">Blog</a>
-
-			<a href="https://twitter.com/codecarton" target="_blank" class="hover:text-pink-700">X</a>
-		</p>
+<footer class="site-footer">
+	<div class="page-frame footer-inner">
+		<p>© {new Date().getFullYear()} Code Carton</p>
+		<nav aria-label="Utility navigation">
+			<a href="mailto:hello@codecarton.com">Email</a>
+			<a href="https://github.com/codecarton">GitHub</a>
+		</nav>
 	</div>
 </footer>
 
 <style>
-	p a {
-		margin-left: 1.5rem;
+	.site-footer {
+		border-top: 1px solid #d9d6cd;
+	}
+
+	.footer-inner {
+		display: flex;
+		justify-content: space-between;
+		gap: 24px;
+		padding-top: 24px;
+		padding-bottom: 24px;
+		color: #5d5c56;
+		font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+		font-size: 0.6875rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	nav {
+		display: flex;
+		gap: 20px;
+	}
+
+	a {
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #e84b1b;
+	}
+
+	@media (max-width: 767px) {
+		.footer-inner {
+			flex-direction: column;
+		}
 	}
 </style>
