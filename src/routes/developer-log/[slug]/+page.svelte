@@ -1,14 +1,26 @@
 <script lang="ts">
 	import Figure from '$lib/developer-log/Figure.svelte';
+	import Seo from '$lib/components/Seo.svelte';
 	import type { PageData } from './$types';
 	export let data: PageData;
 </script>
 
-<svelte:head>
-	<title>{data.entry.title} — Developer Log — Code Carton</title>
-	<meta name="description" content={data.entry.summary} />
-	<link rel="canonical" href={`/developer-log/${data.entry.slug}`} />
-</svelte:head>
+<Seo
+	title={`${data.entry.title} — Developer Log — Code Carton`}
+	description={data.entry.summary}
+	type="article"
+	socialImage={data.entry.cover?.src}
+	jsonLd={{
+		'@context': 'https://schema.org',
+		'@type': 'BlogPosting',
+		headline: data.entry.title,
+		description: data.entry.summary,
+		datePublished: data.entry.publishedAt,
+		...(data.entry.updatedAt ? { dateModified: data.entry.updatedAt } : {}),
+		author: { '@type': 'Person', name: data.entry.author },
+		publisher: { '@type': 'Organization', name: 'Code Carton' }
+	}}
+/>
 
 <article class="page-frame entry" aria-labelledby="entry-heading">
 	<div class="metadata">

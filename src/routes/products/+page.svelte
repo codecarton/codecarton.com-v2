@@ -1,11 +1,9 @@
 <script lang="ts">
+	import Seo from '$lib/components/Seo.svelte';
 	import { products } from '$lib/content/products';
 </script>
 
-<svelte:head>
-	<title>Products — Code Carton</title>
-	<meta name="description" content="Focused software products by Code Carton." />
-</svelte:head>
+<Seo title="Products — Code Carton" description="Focused software products by Code Carton." />
 
 <section class="page-frame products-introduction" aria-labelledby="products-heading">
 	<span class="section-label">Products</span>

@@ -1,14 +1,15 @@
 <script lang="ts">
+	import Seo from '$lib/components/Seo.svelte';
 	import { productsBySlug } from '$lib/content/products';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
 </script>
 
-<svelte:head>
-	<title>Developer Log — Code Carton</title>
-	<meta name="description" content="Notes from the work behind the work at Code Carton." />
-</svelte:head>
+<Seo
+	title="Developer Log — Code Carton"
+	description="Notes from the work behind the work at Code Carton."
+/>
 
 <section class="page-frame developer-log-introduction" aria-labelledby="developer-log-heading">
 	<span class="section-label">Developer Log</span>

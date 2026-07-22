@@ -1,9 +1,9 @@
-<svelte:head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
-	<title>Terms & Conditions</title>
-</svelte:head>
-<div class="md:px-20 mx-auto max-w-4xl mt-10">
+<script lang="ts">
+	import Seo from '$lib/components/Seo.svelte';
+</script>
+
+<Seo title="Devote Terms — Code Carton" description="Terms and conditions for Devote." />
+<div class="legal-document md:px-20 mx-auto max-w-4xl mt-10">
 	<strong>Terms &amp; Conditions</strong><br />
 	<p>
 		These terms and conditions apply to the Devote app (hereby referred to as "Application") for

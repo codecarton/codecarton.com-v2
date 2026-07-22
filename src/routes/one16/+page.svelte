@@ -1,12 +1,16 @@
 <script>
+	import Seo from '$lib/components/Seo.svelte';
 	import SectionWrapper from '$lib/components/SectionWrapper.svelte';
 	import FeatureCallout from '$lib/components/FeatureCallout.svelte';
 	import AppStoreBadge from '$lib/components/AppStoreBadge.svelte';
 </script>
 
-<svelte:head>
-	<title>One16 - Woodworking Calculator</title>
-</svelte:head>
+<Seo
+	title="One16 — Code Carton"
+	description="Legacy One16 product page."
+	canonicalPath="/products/one16"
+	noIndex
+/>
 
 <img
 	src="/one16/iPhone-Hero.webp"

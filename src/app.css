@@ -107,6 +107,31 @@ button {
 	text-decoration-color: currentColor;
 }
 
+.legal-document {
+	max-width: 56rem;
+	padding: 72px 34px 96px;
+	font-size: 1rem;
+	line-height: 1.65;
+}
+
+.legal-document strong:first-child {
+	display: block;
+	margin-bottom: 24px;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size: clamp(2rem, 4vw, 3.5rem);
+	font-weight: 400;
+	letter-spacing: -0.04em;
+	line-height: 1;
+}
+
+.legal-document h2,
+.legal-document h3 {
+	margin-top: 2em;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-weight: 400;
+	line-height: 1.1;
+}
+
 @media (max-width: 767px) {
 	.site-shell {
 		width: 100%;
@@ -115,6 +140,10 @@ button {
 
 	.page-frame {
 		width: min(100% - 40px, 1296px);
+	}
+
+	.legal-document {
+		padding: 48px 20px 72px;
 	}
 
 	.layout-grid {

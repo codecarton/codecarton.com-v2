@@ -1,14 +1,27 @@
 <script lang="ts">
+	import Seo from '$lib/components/Seo.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
 	$: product = data.product;
 </script>
 
-<svelte:head>
-	<title>{product.name} — Code Carton</title>
-	<meta name="description" content={product.summary} />
-</svelte:head>
+<Seo
+	title={`${product.name} — Code Carton`}
+	description={product.summary}
+	socialImage={product.visual.kind === 'image' ? product.visual.src : undefined}
+	jsonLd={{
+		'@context': 'https://schema.org',
+		'@type': 'SoftwareApplication',
+		name: product.name,
+		description: product.summary,
+		operatingSystem: product.platform,
+		applicationCategory: 'UtilitiesApplication',
+		...(product.availability === 'Free'
+			? { offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } }
+			: {})
+	}}
+/>
 
 <section class="page-frame product-header" aria-labelledby="product-heading">
 	<span class="section-label">Product</span>

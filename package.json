@@ -4,8 +4,9 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build",
+		"build": "pnpm run validate:links && vite build",
 		"test": "vitest run",
+		"validate:links": "node scripts/validate-internal-links.mjs",
 		"preview": "vite preview",
 		"start": "node build",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",

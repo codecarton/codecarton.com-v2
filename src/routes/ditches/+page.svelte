@@ -1,12 +1,16 @@
 <script>
+	import Seo from '$lib/components/Seo.svelte';
 	import SectionWrapper from '$lib/components/SectionWrapper.svelte';
 	import FeatureCallout from '$lib/components/FeatureCallout.svelte';
 	import AppStoreBadge from '$lib/components/AppStoreBadge.svelte';
 </script>
 
-<svelte:head>
-	<title>Ditches - Bury Bad Habits and Addictions</title>
-</svelte:head>
+<Seo
+	title="Ditches — Code Carton"
+	description="Legacy Ditches product page."
+	canonicalPath="/products/ditches"
+	noIndex
+/>
 
 <img
 	src="/ditches/ditches-app.webp"
