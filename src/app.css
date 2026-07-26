@@ -76,7 +76,7 @@ button {
 }
 
 .editorial-heading {
-	max-width: 12ch;
+	max-width: 20ch;
 	margin: 24px 0 0;
 	font-family: Georgia, 'Times New Roman', serif;
 	font-size: var(--editorial-display-size);

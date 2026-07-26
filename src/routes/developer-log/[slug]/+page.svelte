@@ -45,8 +45,7 @@
 
 <style>
 	.entry {
-		max-width: 44rem;
-		padding-top: clamp(96px, 16vw, 224px);
+		padding-top: clamp(96px, 16vw, 48px);
 		padding-bottom: 96px;
 	}
 	.metadata {
@@ -73,6 +72,66 @@
 	.content :global(a) {
 		text-decoration-color: #b4b1a8;
 		text-underline-offset: 0.2em;
+	}
+	.content :global(pre) {
+		max-width: 100%;
+		margin: 1.75em 0;
+		padding: 1.125rem 1.25rem;
+		overflow-x: auto;
+		border: 1px solid #d9d6cd;
+		background: #f2f0e9;
+		font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+		font-size: 0.875rem;
+		line-height: 1.65;
+		tab-size: 2;
+	}
+	.content :global(pre code) {
+		display: block;
+		width: max-content;
+		min-width: 100%;
+	}
+	.content :global(pre code .token.comment),
+	.content :global(pre code .token.prolog),
+	.content :global(pre code .token.doctype),
+	.content :global(pre code .token.cdata) {
+		color: #6a737d;
+	}
+	.content :global(pre code .token.punctuation),
+	.content :global(pre code .token.operator) {
+		color: #383a42;
+	}
+	.content :global(pre code .token.property),
+	.content :global(pre code .token.tag),
+	.content :global(pre code .token.constant),
+	.content :global(pre code .token.symbol),
+	.content :global(pre code .token.deleted),
+	.content :global(pre code .token.number),
+	.content :global(pre code .token.boolean) {
+		color: #986801;
+	}
+	.content :global(pre code .token.selector),
+	.content :global(pre code .token.attr-name),
+	.content :global(pre code .token.string),
+	.content :global(pre code .token.char),
+	.content :global(pre code .token.builtin),
+	.content :global(pre code .token.inserted) {
+		color: #50a14f;
+	}
+	.content :global(pre code .token.atrule),
+	.content :global(pre code .token.attr-value),
+	.content :global(pre code .token.keyword) {
+		color: #a626a4;
+	}
+	.content :global(pre code .token.function),
+	.content :global(pre code .token.class-name) {
+		color: #4078f2;
+	}
+	.content :global(:not(pre) > code) {
+		padding: 0.12em 0.3em;
+		border-radius: 0.2em;
+		background: #ece9e1;
+		font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+		font-size: 0.85em;
 	}
 	.related {
 		padding: 24px 0 96px;

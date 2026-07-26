@@ -110,4 +110,50 @@ test.describe('Quiet catalogue editorial presentation', () => {
 		await expectNoHorizontalOverflow(page);
 		await context.close();
 	});
+
+	test('highlights and bounds code blocks within an entry', async ({ page }) => {
+		await page.setViewportSize({ width: 390, height: 844 });
+		await page.goto('/developer-log/when-421-is-not-less-than-1700');
+
+		const entry = page.getByRole('article');
+		const codeBlock = entry.locator('pre');
+		const keyword = codeBlock.locator('code .token.keyword').first();
+		const string = codeBlock.locator('code .token.string').first();
+
+		await expect(codeBlock).toBeVisible();
+		await expect(keyword).toBeVisible();
+		await expect(string).toBeVisible();
+		const [keywordColor, stringColor] = await Promise.all([
+			keyword.evaluate((element) => getComputedStyle(element).color),
+			string.evaluate((element) => getComputedStyle(element).color)
+		]);
+		expect(keywordColor).not.toBe(stringColor);
+
+		const [entryBounds, codeBounds] = await Promise.all([
+			horizontalBounds(entry),
+			horizontalBounds(codeBlock)
+		]);
+		expect(codeBounds.left).toBeGreaterThanOrEqual(entryBounds.left);
+		expect(codeBounds.right).toBeLessThanOrEqual(entryBounds.right + 1);
+		await expectNoHorizontalOverflow(page);
+	});
+
+	test('renders the flagship article’s editorial building blocks together', async ({ page }) => {
+		await page.setViewportSize({ width: 390, height: 844 });
+		await page.goto('/developer-log/a-flagship-developer-log-example');
+
+		const entry = page.getByRole('article');
+		await expect(page.getByRole('heading', { level: 1 })).toHaveText(
+			'A Flagship Developer Log Example'
+		);
+		await expect(entry.getByRole('figure')).toHaveCount(2);
+		await expect(
+			entry.getByRole('img', { name: /overhead view of a woodworking plan/i })
+		).toBeVisible();
+		await expect(entry.locator('aside.callout')).toContainText('Editorial principle');
+		await expect(entry.locator('pre code .token.keyword').first()).toBeVisible();
+		await expect(entry.getByTitle('One16 Actions walkthrough')).toBeVisible();
+		await expect(entry.getByRole('link', { name: 'Get One16 from the App Store.' })).toBeVisible();
+		await expectNoHorizontalOverflow(page);
+	});
 });
